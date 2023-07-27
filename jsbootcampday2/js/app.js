@@ -51,7 +51,6 @@ greater(9,7)
 function palindrome(stringg){
     if(typeof(stringg)==typeof('hi')){
         let revstr=stringg.split("").reverse().join("")
-        console.log(revstr)
         if(revstr==stringg){
             console.log(stringg,"is a palindrome")
         }
